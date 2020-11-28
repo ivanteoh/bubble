@@ -10,6 +10,9 @@ import 'c05_gestures/scale_event_example.dart';
 import 'c05_gestures/tap_event_example.dart';
 import 'c05_hands_on_input/main.dart';
 import 'c05_input/main.dart';
+import 'c06_hands_on_themes/main.dart';
+import 'c06_layout_builder/main.dart';
+import 'c06_themes/main.dart';
 import 'item_details_page.dart';
 import 'item_model.dart';
 
@@ -46,6 +49,10 @@ class _ItemsListPageState extends State<ItemsListPage> {
   ItemModel('c05_gesture_f', 'Pan Widget Example Widget', PanWidgetExample()),
   ItemModel('c05_gesture_g', 'Scale Widget Example Widget', ScaleWidgetExample()),
   ItemModel('c05_hands_on_input', 'Hands On Input Favors Page', HandsOnInputFavorsPage()),
+  ItemModel('c06_themes', 'My App Default Theme', MyAppDefaultTheme()),
+  ItemModel('c06_themes', 'Platform Specific Widgets', PlatformSpecificWidgets()),
+  ItemModel('c06_themes', 'Platform Switch Widgets', PlatformSwitchWidgets()),
+  ItemModel('c06_layout_builder', 'Layout Builder Widget', LayoutBuilderWidget()),
  ];
 
  @override
